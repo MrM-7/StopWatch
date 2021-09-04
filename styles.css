@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Besley', serif;
+    background-color: #E0ECE4;
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+.container{
+    margin-top: 15%;
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 0.2rem;
+    color: #056674;
+}
+
+.btn{
+    background-color: #E0ECE4;
+    margin: 1.5%;
+    padding: 0 2%;
+    font-size: 16px;
+    letter-spacing: 0.3rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 2;
+}
+
+.btn:hover{
+    transition: background-color 0.5s;
+    color: black;
+}
+
+.Stop{
+    background-color: red;
+}
+
+.Stop:hover{
+    background-color: #E0ECE4;
+}
+
+.Start:hover{
+    background-color: green;
+}
+
+.Reset:hover{
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.icons{
+    /* background-color: grey; */
+    margin-top: 2.5%;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.social{
+    padding: 0 1.5%;
+}
+
+.fa-linkedin{
+    color: #0e76a8;
+}
+
+.fa-github{
+    color: #333;
+}
